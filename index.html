@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Products / Details</title>
+</head>
+
+
+<body>
+    
+    <div class="container mt-3">
+        <h3 class="text-center font-weight-normal">Products List</h3>
+    </div>
+
+    <div class="container mt-3 d-flex mb-5">
+        <div class="row">
+            <!-- Card# 1-->
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <img src="images/watch1.jpg" class="card-img-top w-75">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Smart Watch pro</h5>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            <p class="card-text mr-4 text-success">$121</p>
+                        </div>
+
+                        <a href="#" class="card-link" data-bs-toggle ="modal" data-bs-target="#modalid">more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card# 2-->
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <img src="images/watch2.jpg" class="card-img-top w-75">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Smart Watch</h5>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            <p class="card-text mr-4 text-success">$122</p>
+                        </div>
+
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalid">more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card# 3-->
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <img src="images/watch3.jpg" class="card-img-top w-75">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Apple A20</h5>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            <p class="card-text mr-4 text-success">$123</p>
+                        </div>
+
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalid">more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card# 4-->
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <img src="images/watch4.jpg" class="card-img-top w-75">
+                    <div class="card-body">
+
+                        <h5 class="card-title">HP Latitude</h5>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            <p class="card-text mr-4 text-success">$124</p>
+                        </div>
+
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalid">more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card# 5-->
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <img src="images/laptop2.jpg" class="card-img-top w-75">
+                    <div class="card-body">
+
+                        <h5 class="card-title">DELL Inspiron</h5>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            <p class="card-text mr-4 text-success">$125</p>
+                        </div>
+
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalid">more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card# 6-->
+            <div class="col-md-4 mt-5">
+                <div class="card">
+                    <img src="images/laptop3.jpg" class="card-img-top w-75">
+                    <div class="card-body">
+
+                        <h5 class="card-title">HP Proliant</h5>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            <p class="card-text mr-4 text-success">$126</p>
+                        </div>
+
+                        <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#modalid">more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- MODAL Code -->
+    <div class="modal fade" id="modalid">
+        <div class="modal-dialog bg-success">
+
+            <div class="modal-content" style="transform: scaleX(1.4);">
+                
+                <!-- MODAL || Header-->
+                <div class="modal-header pb-2">
+                    <h2 class="font-weight-light ml-4">Description</h2>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div> 
+
+                <!-- MODAL || Body-->
+                <div class="modal-body">
+
+                    <div class="row mt-2 p-3">
+                        <div class="col-md-6">
+                            <img src="" width="100%" height="280px" class="rounded">
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2 class="prod_name"></h2>
+                            <p class="prod_descr" style="box-sizing : border-box;">
+                                Lorem ipsum dolor sit amet consectetur111.
+                            </p>
+                            <p>Review: &nbsp;&nbsp;&nbsp;
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <h4 class="prod_price"></h4>
+                            <button class="btn btn-success mt-2" style="width:150px;">Add to Cart</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
